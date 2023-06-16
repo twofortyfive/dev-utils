@@ -1,7 +1,7 @@
 {
-  "name": "@twofortyfive/utils",
+  "name": "@twofortyfive/dev-utils",
   "version": "0.0.1",
-  "description": "Various utils",
+  "description": "Various dev utils",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
   "main": "dist/main.js",
@@ -37,15 +37,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mathieueveillard/@twofortyfive/utils.git"
+    "url": "git+https://github.com/mathieueveillard/@twofortyfive/dev-utils.git"
   },
   "keywords": [],
   "author": "Mathieu Eveillard",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mathieueveillard/@twofortyfive/utils/issues"
+    "url": "https://github.com/mathieueveillard/@twofortyfive/dev-utils/issues"
   },
-  "homepage": "https://github.com/mathieueveillard/@twofortyfive/utils#readme",
+  "homepage": "https://github.com/mathieueveillard/@twofortyfive/dev-utils#readme",
   "targets": {
     "default": {
       "includeNodeModules": true
@@ -53,5 +53,8 @@
   },
   "engines": {
     "node": "18.15.0"
+  },
+  "dependencies": {
+    "@twofortyfive/utils": "^0.0.1"
   }
 }
